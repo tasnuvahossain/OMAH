@@ -1,0 +1,464 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+width: 1166px;
+margin: 0 auto;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/* =================================navver css start ================================== */
+ #frame1{
+    width: 1366px;
+height: 830px;
+background-color:  #EEEDDE;
+;
+ }
+.nav_wraper{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+ padding-top: 20px;
+ 
+     
+}
+
+.nav_wraper ul{
+    display:flex;
+    justify-content: space-between;
+
+ 
+}.nav_wraper ul li{
+   list-style:none;
+margin-left: 100px;
+text-transform: capitalize;
+ position: relative;
+font-size: 16px;
+font-weight: 300;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+transition: o.4s;
+}
+.nav_wraper ul li:hover{
+    font-weight: 600;
+}
+.nav_wraper ul li::after{
+    content: "";
+    width: 0;
+    height: 2px;
+    position: absolute;
+    background: #F6762E;
+    top :25px;
+    left: 50%;
+    transform: translatex(-50%);
+    border-radius: 3px;
+    transition: 0.4s;
+    }
+    .nav_wraper ul li:hover::after{
+        content: "";
+        width: 60% ;
+        height: 2px;
+        position: absolute;
+        background: #F6762E;
+        top :25px;
+        left: 50%;
+        border-radius: 3px;
+        }
+ 
+/* =================================navver css end================================== */
+/* ================================= frem1 css  start================================== */
+.frame1left{
+    width: 777px;
+    margin-top: 165px;
+    
+   }
+   .frame1_2nd{
+   display: flex;
+   justify-content: space-between;
+   
+   }
+   .frame1left h1{
+    
+   font-size: 56px;
+   font-weight: 600;
+   line-height: 84px;
+   letter-spacing: 0em;
+    color: #203239;
+    margin-bottom: 24px;
+   } 
+   
+   .frame1left p{
+    width: 544px;
+    
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0em;   
+    margin-bottom: 55px;
+       } 
+       .frame1left input{
+           width: 508px;
+   height: 70px;
+   top: 564px;
+   left: 100px;
+   padding: 23px, 101px, 23px, 20px;
+   border-radius: 15px;
+    
+    
+   font-size: 16px;
+   font-weight: 300;
+   line-height: 24px;
+   letter-spacing: 0em;
+    color: #2032398C;
+   background:  #FFFFFF;
+   border-style: none;
+       }
+       .frame1left i{
+ position: absolute;
+ margin-left: 20px;
+ margin-top: 25px;
+    
+       }
+       .input_or_item{
+        display: flex;
+
+       }
+ .frame1left a{
+ padding: 23px 41px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: none;
+ background-color: #FFFFFF;
+border-radius: 10px;
+ color: #2032398C;
+ margin-left: 15px;
+}
+ .frame1_2nd img{
+    margin-top: 96px;}
+/* ================================= frem1 css end================================== */
+/* ================================= frem2 css start================================== */
+.frame2mid{
+    display: flex; gap: 135px;
+    padding-top: 62px;
+}
+.frame2mid1{
+    width: 300px;
+ position: relative;
+border-radius: 10px;
+width: 300px;
+height: 300px;
+border: 1px solid rgb(247, 236, 236);
+padding-left: 25px;
+padding-top: 20px;
+
+}
+
+.frame2mid1 a{
+ text-decoration: none;
+ color: #203239;
+font-weight: 600;
+ 
+}
+.frame2mid1 i{
+ padding-left: 8px;
+}
+#frame2{width: 1366px;
+    height: 672px;
+   margin: 0;
+    padding: 0;
+    background: #FFFFFF;
+
+}
+ 
+.frame2top h2{
+    padding-top: 100px;
+font-size: 36px;
+font-weight: 600;
+line-height: 54px;
+width: 533px;
+
+}
+.frame2mid1 h5{
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+color: #203239;
+ padding-bottom: 8px;
+   }
+   .frame2mid1 h5::before{
+content: " ";
+width: 8px;
+height: 30px;
+ background-color: #F6762E;
+border-radius: 6px;
+position:absolute;
+ left: 0px;  
+   
+   }
+.frame2mid1 p{ 
+font-size: 16px;
+font-weight: 300;
+line-height: 30px;
+width: 235px;padding-bottom: 48px;
+height: 150px; 
+ color: #2032398C;
+
+} 
+.frame2mid1top{
+display: flex;
+justify-content: space-between;
+ }
+ .frame2mid1top h3{
+color: #F6762E;
+padding-right: 20px;
+ }
+/* ================================= frem2 css end================================== */
+/* ================================= frem3 css  start================================== */
+#frame3{
+    width: 1366px;
+height: 836px;
+background: #EEEDDE;
+
+}
+ .frame3left h4{ 
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+color: #F6762E;
+padding-top: 68px;
+}
+.frame3left h2{
+font-size: 36px;
+font-weight: 600;
+line-height: 54px;
+letter-spacing: 0em;
+text-align: left;
+color: #203239;
+padding-top: 8px
+;
+}
+ .frame3right{
+    width: 577px;
+ } 
+ .frame3right h3{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    width: 507px;
+   color: #203239;
+padding-top: 257px;
+    }
+    .frame3wraper{
+        display: flex;
+        justify-content: space-between;
+    } 
+    
+.frame3right p{
+  width: 570px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 30px;
+ padding-top: 24px;
+  }
+  .frame3right button{
+height: 50px;
+ width: 234px;
+background-color:  #EEEDDE;
+ border: 1px solid #203239;
+ border-radius: 10px;
+ margin-top: 48px;
+
+ transition: 0.4s;
+  }
+  .frame3right button:hover{
+ color: #EEEDDE;
+    background-color: #203239;
+     border: 1px solid #EEEDDE;
+     border-radius: 10px;
+     margin-top: 48px;
+      }
+  .frame3right i{
+ padding-right: 12px;
+ 
+  }
+  .img3p{
+    position: absolute;
+    top: 60px;
+    left: 167px;
+  }
+  .frame3imgs{
+position: relative;
+    width: 525px;
+  }
+/* ================================= frem3 css end================================== */
+/* ================================= frem4 css start================================== */  
+ 
+.frame4item1{
+ 
+
+    height: 134px;
+}
+.frame4item{
+    display: flex;
+    gap: 49px;
+}
+#frame4{
+    width: 1366px;
+height: 890px;
+
+}
+.frem4_img{
+    display: flex;
+    gap: 25px;
+padding-top: 64px;
+}#frame4 h5{
+ padding-top: 68px;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+color: #FF7527;
+}
+.frame4 h2{
+     padding-top: 8px;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+   color: #203239;
+
+    
+}
+.frame4item1 h3{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+   color: #121c20;
+ padding-top: 16px;
+}
+.frame4item1 p{
+  padding-top: 8px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+ 
+    color: #203239;
+    
+
+}
+
+
+/* ================================= frem4 css end================================== */
+/* ================================= frem4 css start================================== */
+.frame5items1{
+    display: flex;
+gap: 8px;
+}
+
+#frame5{
+    width: 1366px;
+height: 495px;
+background-color: #EEEDDE;
+;
+}
+#frame5 h2{ 
+font-size: 36px;
+font-weight: 600;
+line-height: 54px;
+ padding-top: 48px;
+}
+.frame5items1{ 
+    width: 274px;
+    height: 167px;
+  background-color:  #FFFFFF;
+    border-radius: 10px;
+    margin-top: 74px;
+}
+.frame5items1 i{
+font-size: 34px;
+padding-top: 36px;
+padding-left: 41px;
+}
+.frame5items1 h5{
+ 
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+ color:  #203239;
+ padding-top: 25px;
+ padding-left: 26px;
+    
+    }
+    .frame5items1 h6{
+ 
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+       color: #203239;
+padding-left: 23px;
+padding-top: 8px;
+        }
+        .frame5items1 a{
+color:  #FFFFFF;
+background: #203239;
+text-decoration: none;
+border-radius: 5px;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 24px;
+padding: 10px 18px;
+display: inline-block;
+margin-top: 27px;
+margin-left: 8px;
+            }
+ .frame5items{
+display: flex;
+gap: 24px;
+width: 649px;
+height: 295px;
+ 
+
+            }
+            .frame5_wraper{
+ display: flex;
+            }
+.frame5right h3{
+ 
+font-size: 36px;
+font-weight: 600;
+line-height: 54px;
+ color:  #203239;
+ padding-bottom: 69px;
+}
+       .frame5right{
+ margin-top: 88px;
+ margin-left: 150px;
+       }
+#footer{
+ width: 100%;
+height: 104px;
+background: #203239;
+
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+          }
+          .footericon{
+            font-size: 19px;
+ color:#EEEDDE ;
+            padding-right: 100px;
+          }
+    .footericon i{
+       display: inline-block;
+margin-left: 70px;
+    }
+    #footer img{
+        padding-left: 100px;
+    }
+/* ================================= frem5 css end================================== */
+
